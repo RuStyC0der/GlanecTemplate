@@ -1,0 +1,45 @@
+
+.board {
+    /* position: absolute; */
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/iStock-515473564.jpg");
+    /* background: url("../img/noise-good.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/iStock-515473564.jpg"); */
+    background-position: center;
+    background-size: cover;
+
+}
+
+.board__title {
+    color: white;
+    font-size: 57px;
+line-height: 67px;
+text-align: center;
+}
+.board__about{
+    color: white;
+text-align: center;
+
+}
+
+.board__line {
+    width: 120px;
+    height: 0px;
+
+    border: 0.5px solid #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.board___make_order_button{
+    margin:25px;
+}
+

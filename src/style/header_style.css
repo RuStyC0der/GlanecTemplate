@@ -10,6 +10,17 @@ header {
 }
 
 
+.top__about{
+    padding-left: 40px;
+    padding-right: 40px;
+
+    padding:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 .cabinet_and_email_wrapper{
     display: flex;
 }
@@ -19,6 +30,14 @@ header {
     justify-content: space-around;
 align-items: center;
 }
+
+.panel__cabinet{
+    display: flex;
+}
+
+/* .cabinet__link{
+    margin: 2px;
+} */
 
 .top__panel{
     display: flex;
@@ -125,8 +144,10 @@ justify-content: center;
     height: 100%;
 }
 
-.menu__item:after{
+.menu__link:after{
     /* margin: 10px; */
     content: url("../img/menu_spacer.svg");
+    position:relative;
+    left: 10px;
     
 }

@@ -17,18 +17,10 @@
 }
 
 
-.top__about{
-    padding-left: 40px;
-    padding-right: 40px;
+.top__about {
+    width: 30%;
 
-    padding:20px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.cabinet_and_email_wrapper{
     display: flex;
     flex-direction: column;
 
@@ -47,15 +39,25 @@
     margin-right: 20%;
 }
 
-.panel__cabinet{
+.panel__facebook_and_phones_wrapper {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-/* .cabinet__link{
-    margin: 2px;
-} */
+.panel__cabinet {
+    display: flex;
+    flex-grow: 1;
+}
 
-.top__panel{
+.shopping_cart{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top__panel {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -191,10 +193,3 @@
     height: 100%;
 }
 
-.menu__link:after{
-    /* margin: 10px; */
-    content: url("../img/menu_spacer.svg");
-    position:relative;
-    left: 10px;
-    
-}

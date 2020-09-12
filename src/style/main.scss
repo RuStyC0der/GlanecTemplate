@@ -1,6 +1,9 @@
-
+// element styles (use like bootstrap)
 @import "buttons";
+@import "text_rules";
+@import "global_rules";
+
+// custom styles
 @import "footer_style";
 @import "header_style";
-@import "main_style";
-@import "text_rules";
+@import "content_style";

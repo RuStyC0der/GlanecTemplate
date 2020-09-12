@@ -61,6 +61,8 @@
 }
 
 .production__container_item{
+    margin: 5px;
+    padding: 5px;
     display: flex;
 }
 
@@ -133,6 +135,7 @@
 
 .about__title_h2{
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .about__content{

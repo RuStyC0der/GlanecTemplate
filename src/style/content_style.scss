@@ -11,7 +11,6 @@
 
 
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/iStock-515473564.jpg");
-    /* background: url("../img/noise-good.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/iStock-515473564.jpg"); */
     background-position: center;
     background-size: cover;
 
@@ -71,10 +70,6 @@
 
 
 .content_list{
-    // display: flex;
-    // flex-wrap: wrap; /* даем возможность переноса на другую строку в случае нехватки места */
-    // flex-direction: column;
-    // justify-content: space-around;
     list-style-position: inside;
 
     list-style: none;

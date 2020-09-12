@@ -1,6 +1,3 @@
-// header {
-//     height: 163px;
-// }
 
 .header_top__wrapper{
     margin-bottom: 1px;
@@ -21,8 +18,6 @@
 
 
 .top__about {
-    // padding-left: 40px;
-    // padding-right: 40px;
     width: 30%;
 
     text-align: center;
@@ -33,7 +28,6 @@
 
 .cabinet_and_email_wrapper {
     display: flex;
-    // width: ;
     justify-content: inherit;
 }
 
@@ -89,17 +83,15 @@
 
 .dropdown_menu__child {
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     position: absolute;
-    display: block;
-    margin-top: 5px;
-    margin-left: -130px;
-    z-index: 2;
+    display: none;
+    margin-top: 7px;
+    margin-left: -177px;
 
-    background: blue;
-    // background: #FFFFFF;
+
+    background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 
     
@@ -124,10 +116,8 @@
     top: -5%;
     width: 28px;
     height: 28px;
-    // background: #FFFFFF;
-    background: red;
+    background: #FFFFFF;
     transform: rotate(-45deg);
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -153,8 +143,6 @@
     cursor: pointer;
     transition: all .3s;
     border-top: 1px solid transparent;
-    // list-style-type: none;
-    // height: 100%;
     padding: 20px;
     white-space: nowrap;
     width: 100%;
@@ -168,13 +156,7 @@
         }
     }
 
-    // &:after {
-    //     /* margin: 10px; */
-    //     content: url("../img/menu_spacer.svg");
-    //     // position: relative;
-    //     // left: 10px;
 
-    // }
 }
 
 .menu__list {
